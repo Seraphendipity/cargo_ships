@@ -3,7 +3,7 @@ data:extend ({
 {
 	type = "technology",
 	name = "water_transport",
-	icon = "__cargo-ships__/graphics/icons/boat.png", 
+	icon = "__cargo-ships-seraph__/graphics/icons/boat.png", 
     icon_size = 64,
 
     effects =
@@ -30,7 +30,7 @@ data:extend ({
 {
   type = "technology",
   name = "cargo_ships",
-  icon = "__cargo-ships__/graphics/icons/cargoship_icon.png", 
+  icon = "__cargo-ships-seraph__/graphics/icons/cargoship_icon.png", 
     icon_size = 128,
 
     effects =
@@ -56,7 +56,7 @@ data:extend ({
 {
 	type = "technology",
 	name = "automated_water_transport",
-	icon = "__cargo-ships__/graphics/icons/port-research.png", 
+	icon = "__cargo-ships-seraph__/graphics/icons/port-research.png", 
     icon_size = 64,
 
     effects =
@@ -86,7 +86,7 @@ data:extend ({
 {
   type = "technology",
   name = "oversea-energy-distribution",
-  icon = "__cargo-ships__/graphics/icons/floating_pole_research.png", 
+  icon = "__cargo-ships-seraph__/graphics/icons/floating_pole_research.png", 
     icon_size = 96,
 
     effects =
@@ -112,7 +112,7 @@ data:extend ({
 {
 	type = "technology",
 	name = "water_transport_signals",
-	icon = "__cargo-ships__/graphics/icons/buoys-research.png", 
+	icon = "__cargo-ships-seraph__/graphics/icons/buoys-research.png", 
     icon_size = 64,
 
     effects =
@@ -142,7 +142,7 @@ data:extend ({
 {
 	type = "technology",
 	name = "tank_ship",
-	icon = "__cargo-ships__/graphics/icons/tanker.png", 
+	icon = "__cargo-ships-seraph__/graphics/icons/tanker.png", 
   icon_size = 128,
 
   effects =
@@ -172,7 +172,7 @@ data:extend ({
 {
   type = "technology",
   name = "deep_sea_oil_extraction",
-  icon = "__cargo-ships__/graphics/icons/oil_rig.png", 
+  icon = "__cargo-ships-seraph__/graphics/icons/oil_rig.png", 
   icon_size = 96,
   effects =
   {
@@ -198,7 +198,7 @@ data:extend ({
 {
   type = "technology",
   name = "automated_bridges",
-  icon = "__cargo-ships__/graphics/icons/bridge_research.png", 
+  icon = "__cargo-ships-seraph__/graphics/icons/bridge_research.png", 
   icon_size = 128,
   effects =
   {

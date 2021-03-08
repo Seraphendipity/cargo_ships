@@ -35,7 +35,7 @@ data:extend({
         {
         type = "item-with-entity-data", 
         name = "indep-boat", 
-        icon = "__cargo-ships__/graphics/icons/boat.png", 
+        icon = "__cargo-ships-seraph__/graphics/icons/boat.png", 
         icon_size = 64,
         flags = {}, 
         subgroup = subgroup_ship, 
@@ -46,7 +46,7 @@ data:extend({
         {
         type = "item-with-entity-data", 
         name = "boat", 
-        icon = "__cargo-ships__/graphics/icons/boat.png", 
+        icon = "__cargo-ships-seraph__/graphics/icons/boat.png", 
         icon_size = 64,
         flags = {}, 
         subgroup = subgroup_ship, 
@@ -57,7 +57,7 @@ data:extend({
         {
         type = "item-with-entity-data", 
         name = "boat_engine", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 32,
         flags = {"hidden"}, 
         subgroup = subgroup_ship, 
@@ -68,7 +68,7 @@ data:extend({
         {
         type = "item-with-entity-data", 
         name = "cargo_ship_engine", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 32,
         flags = {"hidden"}, 
         subgroup = subgroup_ship, 
@@ -79,7 +79,7 @@ data:extend({
         {
         type = "item-with-entity-data", 
         name = "cargo_ship", 
-        icon = "__cargo-ships__/graphics/icons/cargoship_icon.png", 
+        icon = "__cargo-ships-seraph__/graphics/icons/cargoship_icon.png", 
         icon_size = 128,
         flags = {}, 
         subgroup = subgroup_ship, 
@@ -90,7 +90,7 @@ data:extend({
         {
         type = "item-with-entity-data", 
         name = "oil_tanker", 
-        icon = "__cargo-ships__/graphics/icons/tanker.png", 
+        icon = "__cargo-ships-seraph__/graphics/icons/tanker.png", 
         icon_size = 128,
         flags = {}, 
         subgroup = subgroup_ship, 
@@ -101,7 +101,7 @@ data:extend({
         {
         type = "rail-planner",
         name = "water-way",
-        icon = "__cargo-ships__/graphics/icons/water_rail.png",
+        icon = "__cargo-ships-seraph__/graphics/icons/water_rail.png",
         icon_size = 64,
         flags = {}, 
         subgroup = subgroup_shipequip,
@@ -114,7 +114,7 @@ data:extend({
         {
         type = "item",
         name = "port",
-        icon = "__cargo-ships__/graphics/icons/port.png",
+        icon = "__cargo-ships-seraph__/graphics/icons/port.png",
         icon_size = 114,
         flags = {},
         subgroup = subgroup_shipequip,
@@ -125,7 +125,7 @@ data:extend({
         {
         type = "item",
         name = "floating-electric-pole",
-        icon = "__cargo-ships__/graphics/icons/floating_pole.png",
+        icon = "__cargo-ships-seraph__/graphics/icons/floating_pole.png",
         icon_size = 96,
         flags = {},
         subgroup = subgroup_shipequip, --"energy-pipe-distribution",
@@ -136,7 +136,7 @@ data:extend({
         {
         type = "item",
         name = "buoy",
-        icon = "__cargo-ships__/graphics/icons/buoy.png",
+        icon = "__cargo-ships-seraph__/graphics/icons/buoy.png",
         icon_size = 64,
         flags = {},
         subgroup = subgroup_shipequip,
@@ -147,7 +147,7 @@ data:extend({
         {
         type = "item",
         name = "chain_buoy",
-        icon = "__cargo-ships__/graphics/icons/chain_buoy.png",
+        icon = "__cargo-ships-seraph__/graphics/icons/chain_buoy.png",
         icon_size = 64,
         flags = {},
         subgroup = subgroup_shipequip,
@@ -158,7 +158,7 @@ data:extend({
         {
         type = "item",
         name = "ship_pump",
-        icon = "__cargo-ships__/graphics/icons/ship_pump.png",
+        icon = "__cargo-ships-seraph__/graphics/icons/ship_pump.png",
         icon_size = 64,
         flags = {},
         subgroup = subgroup_shipequip, --"energy-pipe-distribution",
@@ -169,7 +169,7 @@ data:extend({
         {
         type = "item", 
         name = "oil_rig", 
-        icon = "__cargo-ships__/graphics/icons/oil_rig.png", 
+        icon = "__cargo-ships-seraph__/graphics/icons/oil_rig.png", 
         icon_size = 96,
         flags = {}, 
         subgroup = "extraction-machine",
@@ -180,7 +180,7 @@ data:extend({
         {
         type = "item", 
         name = "or_power", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 2,
         subgroup = "extraction-machine",
         flags = {"hidden"}, 
@@ -191,7 +191,7 @@ data:extend({
         {
         type = "item", 
         name = "or_pole", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 2,
         subgroup = "extraction-machine",
         flags = {"hidden"},
@@ -202,7 +202,7 @@ data:extend({
         {
         type = "item", 
         name = "or_lamp", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 2,
         subgroup = "extraction-machine",
         flags = {"hidden"},
@@ -213,7 +213,7 @@ data:extend({
         {      
         type = "item", 
         name = "or_radar", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 2,
         subgroup = "extraction-machine",
         flags = {"hidden"},
@@ -224,7 +224,7 @@ data:extend({
         {      
         type = "item", 
         name = "pump_marker", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 2,
         flags = {"hidden"},
         order = "b[fluids]-c[oil_rig]",

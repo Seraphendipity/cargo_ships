@@ -351,7 +351,9 @@ script.on_event(defines.events.on_robot_mined_entity, OnDeleted)
 script.on_event(defines.events.script_raised_destroy, OnDeleted)
 
 --place deep oil
-script.on_event(defines.events.on_chunk_generated, placeDeepOil)
+if settings.startup["deep-sea-oil-generation"].value == true then
+	script.on_event(defines.events.on_chunk_generated, placeDeepOil)
+end
 -- entity created
 script.on_event(defines.events.on_player_built_tile, onTileBuild)
 script.on_event(defines.events.on_robot_built_tile, onTileBuild)

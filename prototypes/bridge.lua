@@ -2,7 +2,7 @@ local bridge=table.deepcopy(data.raw["train-stop"]["port"])
 bridge.name = "bridge_base"
 bridge.animations = make_4way_animation_from_spritesheet({layers = {
 {
-    filename = "__cargo-ships__/graphics/entity/bridge/base.png",
+    filename = "__cargo-ships-seraph__/graphics/entity/bridge/base.png",
     --line_length = 4,
     width = 275,
     height = 275,
@@ -26,12 +26,12 @@ bridge.animations = make_4way_animation_from_spritesheet({layers = {
 local bridge_north=table.deepcopy(data.raw["power-switch"]["power-switch"])
 bridge_north.name = "bridge_north"
 bridge_north.led_on={
-  filename = "__cargo-ships__/graphics/blank.png",
+  filename = "__cargo-ships-seraph__/graphics/blank.png",
   width = 2,
   height = 2,
 }
 bridge_north.led_off={
-  filename = "__cargo-ships__/graphics/blank.png",
+  filename = "__cargo-ships-seraph__/graphics/blank.png",
   width = 2,
   height = 2,
 }
@@ -40,7 +40,7 @@ bridge_north.power_on_animation =
  layers =
       {
         {
-          filename = "__cargo-ships__/graphics/entity/bridge/north/bridge.png",
+          filename = "__cargo-ships-seraph__/graphics/entity/bridge/north/bridge.png",
           animation_speed = 0.4,
           line_length = 4,
           width = 512,
@@ -52,7 +52,7 @@ bridge_north.power_on_animation =
           scale = 0.852,
         },
         {
-          filename = "__cargo-ships__/graphics/entity/bridge/north/shadows.png",
+          filename = "__cargo-ships-seraph__/graphics/entity/bridge/north/shadows.png",
           animation_speed = 0.4,
           line_length = 4,
           width = 512,
@@ -88,7 +88,7 @@ bridge_north_closed.selectable_in_game = false
 bridge_north_closed.allow_copy_paste = false
 bridge_north_closed.render_layer = "floor-mechanics"
 bridge_north_closed.picture = {
-      filename = "__cargo-ships__/graphics/entity/bridge/north/closed.png",
+      filename = "__cargo-ships-seraph__/graphics/entity/bridge/north/closed.png",
       priority = "extra-high",
       width = 512,
       height = 256,
@@ -103,12 +103,12 @@ bridge_north_closed.picture = {
 local bridge_east=table.deepcopy(data.raw["power-switch"]["power-switch"])
 bridge_east.name = "bridge_east"
 bridge_east.led_on={
-  filename = "__cargo-ships__/graphics/blank.png",
+  filename = "__cargo-ships-seraph__/graphics/blank.png",
   width = 2,
   height = 2,
 }
 bridge_east.led_off={
-  filename = "__cargo-ships__/graphics/blank.png",
+  filename = "__cargo-ships-seraph__/graphics/blank.png",
   width = 2,
   height = 2,
 }
@@ -117,7 +117,7 @@ bridge_east.power_on_animation =
  layers =
       {
         {
-          filename = "__cargo-ships__/graphics/entity/bridge/east/bridge.png",
+          filename = "__cargo-ships-seraph__/graphics/entity/bridge/east/bridge.png",
           animation_speed = 0.4,
           line_length = 8,
           width = 256,
@@ -129,7 +129,7 @@ bridge_east.power_on_animation =
           scale = 0.84,
         },
         {
-          filename = "__cargo-ships__/graphics/entity/bridge/east/shadows.png",
+          filename = "__cargo-ships-seraph__/graphics/entity/bridge/east/shadows.png",
           animation_speed = 0.4,
           line_length = 8,
           width = 256,
@@ -166,7 +166,7 @@ bridge_east_closed.selectable_in_game = false
 bridge_east_closed.allow_copy_paste = false
 bridge_east_closed.render_layer = "floor-mechanics"
 bridge_east_closed.picture = {
-      filename = "__cargo-ships__/graphics/entity/bridge/east/closed.png",
+      filename = "__cargo-ships-seraph__/graphics/entity/bridge/east/closed.png",
       priority = "extra-high",
       width = 256,
       height = 546,
@@ -183,12 +183,12 @@ bridge_east_closed.picture = {
 local bridge_south=table.deepcopy(data.raw["power-switch"]["power-switch"])
 bridge_south.name = "bridge_south"
 bridge_south.led_on={
-  filename = "__cargo-ships__/graphics/blank.png",
+  filename = "__cargo-ships-seraph__/graphics/blank.png",
   width = 2,
   height = 2,
 }
 bridge_south.led_off={
-  filename = "__cargo-ships__/graphics/blank.png",
+  filename = "__cargo-ships-seraph__/graphics/blank.png",
   width = 2,
   height = 2,
 }
@@ -197,7 +197,7 @@ bridge_south.power_on_animation =
  layers =
       {
         {
-          filename = "__cargo-ships__/graphics/entity/bridge/south/bridge.png",
+          filename = "__cargo-ships-seraph__/graphics/entity/bridge/south/bridge.png",
           animation_speed = 0.4,
           line_length = 4,
           width = 512,
@@ -209,7 +209,7 @@ bridge_south.power_on_animation =
           scale = 0.852,
         },
         {
-          filename = "__cargo-ships__/graphics/entity/bridge/south/shadows.png",
+          filename = "__cargo-ships-seraph__/graphics/entity/bridge/south/shadows.png",
           animation_speed = 0.4,
           line_length = 4,
           width = 512,
@@ -245,7 +245,7 @@ bridge_south_closed.selectable_in_game = false
 bridge_south_closed.allow_copy_paste = false
 bridge_south_closed.render_layer = "floor-mechanics"
 bridge_south_closed.picture = {
-      filename = "__cargo-ships__/graphics/entity/bridge/south/closed.png",
+      filename = "__cargo-ships-seraph__/graphics/entity/bridge/south/closed.png",
       priority = "extra-high",
       width = 512,
       height = 256,
@@ -262,12 +262,12 @@ bridge_south_closed.picture = {
 local bridge_west=table.deepcopy(data.raw["power-switch"]["power-switch"])
 bridge_west.name = "bridge_west"
 bridge_west.led_on={
-  filename = "__cargo-ships__/graphics/blank.png",
+  filename = "__cargo-ships-seraph__/graphics/blank.png",
   width = 2,
   height = 2,
 }
 bridge_west.led_off={
-  filename = "__cargo-ships__/graphics/blank.png",
+  filename = "__cargo-ships-seraph__/graphics/blank.png",
   width = 2,
   height = 2,
 }
@@ -276,7 +276,7 @@ bridge_west.power_on_animation =
  layers =
       {
         {
-          filename = "__cargo-ships__/graphics/entity/bridge/west/bridge.png",
+          filename = "__cargo-ships-seraph__/graphics/entity/bridge/west/bridge.png",
           animation_speed = 0.4,
           line_length = 8,
           width = 256,
@@ -288,7 +288,7 @@ bridge_west.power_on_animation =
           scale = 0.84,
         },
         {
-          filename = "__cargo-ships__/graphics/entity/bridge/west/shadows.png",
+          filename = "__cargo-ships-seraph__/graphics/entity/bridge/west/shadows.png",
           animation_speed = 0.4,
           line_length = 8,
           width = 256,
@@ -324,7 +324,7 @@ bridge_west_closed.selectable_in_game = false
 bridge_west_closed.allow_copy_paste = false
 bridge_west_closed.render_layer = "floor-mechanics"
 bridge_west_closed.picture = {
-    filename = "__cargo-ships__/graphics/entity/bridge/west/closed.png",
+    filename = "__cargo-ships-seraph__/graphics/entity/bridge/west/closed.png",
     priority = "extra-high",
     width = 256,
     height = 546,
@@ -347,7 +347,7 @@ invisible_chain_signal.minable = nil
 
 invisible_chain_signal.animation =
 {
-  filename = "__cargo-ships__/graphics/blank.png",
+  filename = "__cargo-ships-seraph__/graphics/blank.png",
   priority = "high",
   width = 2,
   height = 2,
@@ -376,7 +376,7 @@ bridge_north_clickable.collision_mask = {"object-layer", "layer-14"}
 bridge_north_clickable.max_health = 500
 bridge_north_clickable.picture =
 {
-  filename = "__cargo-ships__/graphics/blank.png",
+  filename = "__cargo-ships-seraph__/graphics/blank.png",
   width = 2,
   height = 2,
 }
@@ -439,25 +439,25 @@ bridge_west_open.collision_mask = {}
 
 bridge_north_open.picture =
 {
-  filename = "__cargo-ships__/graphics/blank.png",
+  filename = "__cargo-ships-seraph__/graphics/blank.png",
   width = 2,
   height = 2,
 }
 bridge_east_open.picture =
 {
-  filename = "__cargo-ships__/graphics/blank.png",
+  filename = "__cargo-ships-seraph__/graphics/blank.png",
   width = 2,
   height = 2,
 }
 bridge_south_open.picture =
 {
-  filename = "__cargo-ships__/graphics/blank.png",
+  filename = "__cargo-ships-seraph__/graphics/blank.png",
   width = 2,
   height = 2,
 }
 bridge_west_open.picture =
 {
-  filename = "__cargo-ships__/graphics/blank.png",
+  filename = "__cargo-ships-seraph__/graphics/blank.png",
   width = 2,
   height = 2,
 }

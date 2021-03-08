@@ -98,5 +98,12 @@ data:extend({
 		maximum_value = 500,
 		order = "a-b"
 	},
+	{
+		setting_type = "startup",
+		name = "deep-sea-oil-generation",
+		order = "a",
+		type = "bool-setting",
+		default_value = true,
+	  },
 
 })

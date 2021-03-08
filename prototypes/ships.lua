@@ -6,8 +6,8 @@ non_standard_wheels =
   direction_count = 256,
   filenames =
   {
-      "__cargo-ships__/graphics/blank.png",
-      "__cargo-ships__/graphics/blank.png",
+      "__cargo-ships-seraph__/graphics/blank.png",
+      "__cargo-ships-seraph__/graphics/blank.png",
 
   },
   line_length =  32,
@@ -21,7 +21,7 @@ return
     minimum_darkness = 0.3,
     picture =
     {
-      filename = "__cargo-ships__/graphics/light-cone.png",
+      filename = "__cargo-ships-seraph__/graphics/light-cone.png",
       priority = "extra-high",
       flags = { "light" },
       scale = 2,
@@ -41,7 +41,7 @@ function empty_reflection()
   {
     pictures =
     {
-      filename = "__cargo-ships__/graphics/blank.png",
+      filename = "__cargo-ships-seraph__/graphics/blank.png",
       width = 2,
       height = 2,
       variation_count = 1,
@@ -91,7 +91,7 @@ indep_boat.collision_mask = {"ground-tile", "train-layer"}
 indep_boat.collision_box = {{-1.2, -3}, {1.2, 3}}
 indep_boat.selection_box = {{-1.2, -3}, {1.2, 3}}
 indep_boat.max_health = 600
-indep_boat.icon = "__cargo-ships__/graphics/icons/boat.png"
+indep_boat.icon = "__cargo-ships-seraph__/graphics/icons/boat.png"
 indep_boat.icon_size = 64
 indep_boat.guns= nil
 indep_boat.braking_power = "150kW"
@@ -173,7 +173,7 @@ indep_boat.animation =
           stripes =
           {
             {
-             filename = "__cargo-ships__/graphics/entity/boat/indep/boat.png",
+             filename = "__cargo-ships-seraph__/graphics/entity/boat/indep/boat.png",
              width_in_frames = 8,
              height_in_frames = 8,            
             }
@@ -209,7 +209,7 @@ indep_boat.light =  {
     minimum_darkness = 0.3,
     picture =
     {
-      filename = "__cargo-ships__/graphics/light-cone-boat.png",
+      filename = "__cargo-ships-seraph__/graphics/light-cone-boat.png",
       priority = "extra-high",
       flags = { "light" },
       scale = 2,
@@ -232,7 +232,7 @@ indep_boat.light =  {
 
 local boat=table.deepcopy(data.raw["cargo-wagon"]["cargo-wagon"])
 boat.name = "boat"
-boat.icon = "__cargo-ships__/graphics/icons/boat.png"
+boat.icon = "__cargo-ships-seraph__/graphics/icons/boat.png"
 boat.icon_size = 64
 boat.flags = {"placeable-neutral", "player-creation", "placeable-off-grid", "not-on-map"}
 boat.allow_copy_paste = false
@@ -260,10 +260,10 @@ boat.pictures =
       allow_low_quality_rotation = true,
       filenames =
       {
-        "__cargo-ships__/graphics/entity/boat/boat-0.png",
-        "__cargo-ships__/graphics/entity/boat/boat-1.png",
-        "__cargo-ships__/graphics/entity/boat/boat-2.png",
-        "__cargo-ships__/graphics/entity/boat/boat-3.png",
+        "__cargo-ships-seraph__/graphics/entity/boat/boat-0.png",
+        "__cargo-ships-seraph__/graphics/entity/boat/boat-1.png",
+        "__cargo-ships-seraph__/graphics/entity/boat/boat-2.png",
+        "__cargo-ships-seraph__/graphics/entity/boat/boat-3.png",
       },
       line_length = 8,
       lines_per_file = 8,
@@ -277,7 +277,7 @@ boat.back_light =  {
     minimum_darkness = 0.3,
     picture =
     {
-      filename = "__cargo-ships__/graphics/light-cone-boat.png",
+      filename = "__cargo-ships-seraph__/graphics/light-cone-boat.png",
       priority = "extra-high",
       flags = { "light" },
       scale = 2,
@@ -306,7 +306,7 @@ boat_engine.name = "boat_engine"
 boat_engine.flags =  {"not-blueprintable", "placeable-neutral", "player-creation"}
 boat_engine.allow_copy_paste = false
 boat_engine.minable = nil
-boat_engine.icon = "__cargo-ships__/graphics/icons/ship-engine.png"
+boat_engine.icon = "__cargo-ships-seraph__/graphics/icons/ship-engine.png"
 boat_engine.icon_size = 64
 boat_engine.weight = 5000
 boat_engine.max_speed = 0.27*speed_modifier
@@ -363,7 +363,7 @@ boat_engine.pictures =
       allow_low_quality_rotation = true,
       filenames =
       {
-        "__cargo-ships__/graphics/blank.png",
+        "__cargo-ships-seraph__/graphics/blank.png",
       },
       line_length = 16,
       lines_per_file = 16,
@@ -408,7 +408,7 @@ boat_engine.drive_over_tie_trigger = nil
 
 local cargo_ship=table.deepcopy(data.raw["cargo-wagon"]["cargo-wagon"])
 cargo_ship.name = "cargo_ship"
-cargo_ship.icon = "__cargo-ships__/graphics/icons/cargoship_icon.png"
+cargo_ship.icon = "__cargo-ships-seraph__/graphics/icons/cargoship_icon.png"
 cargo_ship.icon_size = 128
 cargo_ship.flags = {"not-blueprintable","placeable-neutral", "player-creation", "placeable-off-grid", "not-on-map"}
 cargo_ship.allow_copy_paste = false
@@ -440,22 +440,22 @@ cargo_ship.pictures =
   		allow_low_quality_rotation = true,
 			filenames =
 			{
-        "__cargo-ships__/graphics/entity/cargo_ship/cs_0.png",
-        "__cargo-ships__/graphics/entity/cargo_ship/cs_1.png",
-        "__cargo-ships__/graphics/entity/cargo_ship/cs_2.png",
-        "__cargo-ships__/graphics/entity/cargo_ship/cs_3.png",
-        "__cargo-ships__/graphics/entity/cargo_ship/cs_4.png",
-        "__cargo-ships__/graphics/entity/cargo_ship/cs_5.png",
-        "__cargo-ships__/graphics/entity/cargo_ship/cs_6.png",
-        "__cargo-ships__/graphics/entity/cargo_ship/cs_7.png",
-        "__cargo-ships__/graphics/entity/cargo_ship/cs_8.png",
-        "__cargo-ships__/graphics/entity/cargo_ship/cs_9.png",
-        "__cargo-ships__/graphics/entity/cargo_ship/cs_10.png",
-        "__cargo-ships__/graphics/entity/cargo_ship/cs_11.png",
-        "__cargo-ships__/graphics/entity/cargo_ship/cs_12.png",
-        "__cargo-ships__/graphics/entity/cargo_ship/cs_13.png",
-        "__cargo-ships__/graphics/entity/cargo_ship/cs_14.png",
-        "__cargo-ships__/graphics/entity/cargo_ship/cs_15.png",
+        "__cargo-ships-seraph__/graphics/entity/cargo_ship/cs_0.png",
+        "__cargo-ships-seraph__/graphics/entity/cargo_ship/cs_1.png",
+        "__cargo-ships-seraph__/graphics/entity/cargo_ship/cs_2.png",
+        "__cargo-ships-seraph__/graphics/entity/cargo_ship/cs_3.png",
+        "__cargo-ships-seraph__/graphics/entity/cargo_ship/cs_4.png",
+        "__cargo-ships-seraph__/graphics/entity/cargo_ship/cs_5.png",
+        "__cargo-ships-seraph__/graphics/entity/cargo_ship/cs_6.png",
+        "__cargo-ships-seraph__/graphics/entity/cargo_ship/cs_7.png",
+        "__cargo-ships-seraph__/graphics/entity/cargo_ship/cs_8.png",
+        "__cargo-ships-seraph__/graphics/entity/cargo_ship/cs_9.png",
+        "__cargo-ships-seraph__/graphics/entity/cargo_ship/cs_10.png",
+        "__cargo-ships-seraph__/graphics/entity/cargo_ship/cs_11.png",
+        "__cargo-ships-seraph__/graphics/entity/cargo_ship/cs_12.png",
+        "__cargo-ships-seraph__/graphics/entity/cargo_ship/cs_13.png",
+        "__cargo-ships-seraph__/graphics/entity/cargo_ship/cs_14.png",
+        "__cargo-ships-seraph__/graphics/entity/cargo_ship/cs_15.png",
       },
 			line_length = 4,
   		lines_per_file = 4,
@@ -473,7 +473,7 @@ cargo_ship.vertical_doors =
   {
 
     {
-      filename = "__cargo-ships__/graphics/entity/cargo_ship/vertical_doors.png",
+      filename = "__cargo-ships-seraph__/graphics/entity/cargo_ship/vertical_doors.png",
       line_length = 12,
       width = 88,
       height = 240,
@@ -489,7 +489,7 @@ cargo_ship.horizontal_doors =
   {
 
     {
-      filename = "__cargo-ships__/graphics/entity/cargo_ship/horizontal_doors.png",
+      filename = "__cargo-ships-seraph__/graphics/entity/cargo_ship/horizontal_doors.png",
       line_length = 1,
       width = 252,
       height = 71,
@@ -515,7 +515,7 @@ local tanker_capacity = settings.startup["tanker_capacity"].value;
 
 local oil_tanker=table.deepcopy(data.raw["fluid-wagon"]["fluid-wagon"])
 oil_tanker.name = "oil_tanker"
-oil_tanker.icon =  "__cargo-ships__/graphics/icons/tanker.png"
+oil_tanker.icon =  "__cargo-ships-seraph__/graphics/icons/tanker.png"
 oil_tanker.icon_size = 128
 oil_tanker.flags = {"not-blueprintable","placeable-neutral", "player-creation", "placeable-off-grid", "not-on-map"}
 oil_tanker.allow_copy_paste = false
@@ -548,22 +548,22 @@ oil_tanker.pictures =
       allow_low_quality_rotation = true,
       filenames =
       {
-        "__cargo-ships__/graphics/entity/tanker/tanker_0.png",
-        "__cargo-ships__/graphics/entity/tanker/tanker_1.png",
-        "__cargo-ships__/graphics/entity/tanker/tanker_2.png",
-        "__cargo-ships__/graphics/entity/tanker/tanker_3.png",
-        "__cargo-ships__/graphics/entity/tanker/tanker_4.png",
-        "__cargo-ships__/graphics/entity/tanker/tanker_5.png",
-        "__cargo-ships__/graphics/entity/tanker/tanker_6.png",
-        "__cargo-ships__/graphics/entity/tanker/tanker_7.png",
-        "__cargo-ships__/graphics/entity/tanker/tanker_8.png",
-        "__cargo-ships__/graphics/entity/tanker/tanker_9.png",
-        "__cargo-ships__/graphics/entity/tanker/tanker_10.png",
-        "__cargo-ships__/graphics/entity/tanker/tanker_11.png",
-        "__cargo-ships__/graphics/entity/tanker/tanker_12.png",
-        "__cargo-ships__/graphics/entity/tanker/tanker_13.png",
-        "__cargo-ships__/graphics/entity/tanker/tanker_14.png",
-        "__cargo-ships__/graphics/entity/tanker/tanker_15.png",
+        "__cargo-ships-seraph__/graphics/entity/tanker/tanker_0.png",
+        "__cargo-ships-seraph__/graphics/entity/tanker/tanker_1.png",
+        "__cargo-ships-seraph__/graphics/entity/tanker/tanker_2.png",
+        "__cargo-ships-seraph__/graphics/entity/tanker/tanker_3.png",
+        "__cargo-ships-seraph__/graphics/entity/tanker/tanker_4.png",
+        "__cargo-ships-seraph__/graphics/entity/tanker/tanker_5.png",
+        "__cargo-ships-seraph__/graphics/entity/tanker/tanker_6.png",
+        "__cargo-ships-seraph__/graphics/entity/tanker/tanker_7.png",
+        "__cargo-ships-seraph__/graphics/entity/tanker/tanker_8.png",
+        "__cargo-ships-seraph__/graphics/entity/tanker/tanker_9.png",
+        "__cargo-ships-seraph__/graphics/entity/tanker/tanker_10.png",
+        "__cargo-ships-seraph__/graphics/entity/tanker/tanker_11.png",
+        "__cargo-ships-seraph__/graphics/entity/tanker/tanker_12.png",
+        "__cargo-ships-seraph__/graphics/entity/tanker/tanker_13.png",
+        "__cargo-ships-seraph__/graphics/entity/tanker/tanker_14.png",
+        "__cargo-ships-seraph__/graphics/entity/tanker/tanker_15.png",
       },
       line_length = 4,
       lines_per_file = 4,
@@ -591,7 +591,7 @@ cargo_ship_engine.name = "cargo_ship_engine"
 cargo_ship_engine.minable = nil
 cargo_ship_engine.flags =  {"not-blueprintable", "placeable-neutral", "player-creation"}
 cargo_ship_engine.allow_copy_paste = false
-cargo_ship_engine.icon = "__cargo-ships__/graphics/icons/ship-engine.png"
+cargo_ship_engine.icon = "__cargo-ships-seraph__/graphics/icons/ship-engine.png"
 cargo_ship_engine.icon_size = 64
 cargo_ship_engine.weight = 100000
 cargo_ship_engine.max_speed = 0.15 * speed_modifier
@@ -661,7 +661,7 @@ cargo_ship_engine.pictures =
       allow_low_quality_rotation = true,
       filenames =
       {
-        "__cargo-ships__/graphics/blank.png",
+        "__cargo-ships-seraph__/graphics/blank.png",
       },
       line_length = 16,
       lines_per_file = 16,

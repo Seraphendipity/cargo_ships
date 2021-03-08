@@ -8,7 +8,7 @@ floating_pole.fast_replaceable_group = nil
 floating_pole.next_upgrade = nil
 floating_pole.pictures =
     {
-      filename =  "__cargo-ships__/graphics/entity/floating_electric_pole/floating-electric-pole.png",
+      filename =  "__cargo-ships-seraph__/graphics/entity/floating_electric_pole/floating-electric-pole.png",
       priority = "high",
       width = 168,
       height = 165,
@@ -67,7 +67,7 @@ buoy.fast_replaceable_group = "buoy"
 buoy.minable = {mining_time = 0.5, result = "buoy"}
 buoy.animation =
 {
-  filename = "__cargo-ships__/graphics/entity/buoy/buoys.png",
+  filename = "__cargo-ships-seraph__/graphics/entity/buoy/buoys.png",
   priority = "high",
   width = 144,
   height = 144,
@@ -86,7 +86,7 @@ chain_buoy.fast_replaceable_group = "buoy"
 chain_buoy.minable = {mining_time = 0.5, result = "chain_buoy"}
 chain_buoy.animation =
 {
-  filename = "__cargo-ships__/graphics/entity/chain_buoy/chain_buoys.png",
+  filename = "__cargo-ships-seraph__/graphics/entity/chain_buoy/chain_buoys.png",
   priority = "high",
   width = 256,
   height = 256,
@@ -104,7 +104,7 @@ chain_buoy.rail_piece = nil
 
 local port=table.deepcopy(data.raw["train-stop"]["train-stop"])
 port.name = "port"
-port.icon = "__cargo-ships__/graphics/blank.png"
+port.icon = "__cargo-ships-seraph__/graphics/blank.png"
 port.minable = {mining_time = 1, result = "port"}
 port.rail_overlay_animations = nil
 port.collision_mask = {"object-layer"}
@@ -113,7 +113,7 @@ port.selection_box =  {{-0.01, -0.9}, {1.9, 0.9}}
 port.animations = make_4way_animation_from_spritesheet({ layers =
   {
     {
-      filename = "__cargo-ships__/graphics/entity/port/uniport.png",
+      filename = "__cargo-ships-seraph__/graphics/entity/port/uniport.png",
       width = 140,
       height = 291,
       direction_count = 4,
@@ -130,7 +130,7 @@ port.light1 =
   {
     north =
     {
-      filename = "__cargo-ships__/graphics/entity/port/port-light-1.png",
+      filename = "__cargo-ships-seraph__/graphics/entity/port/port-light-1.png",
       width =14,
       height = 7,
       scale = 0.7,
@@ -138,7 +138,7 @@ port.light1 =
     },
     west =
     {
-      filename = "__cargo-ships__/graphics/entity/port/port-light-1.png",
+      filename = "__cargo-ships-seraph__/graphics/entity/port/port-light-1.png",
       width =14,
       height = 7,
       scale = 0.7,
@@ -146,7 +146,7 @@ port.light1 =
     },
     south =
     {
-      filename = "__cargo-ships__/graphics/entity/port/port-light-1.png",
+      filename = "__cargo-ships-seraph__/graphics/entity/port/port-light-1.png",
       width =14,
       height = 7,
       scale = 0.7,
@@ -154,7 +154,7 @@ port.light1 =
     },
     east =
     {
-      filename = "__cargo-ships__/graphics/entity/port/port-light-1.png",
+      filename = "__cargo-ships-seraph__/graphics/entity/port/port-light-1.png",
       width =14,
       height = 7,
       scale = 0.7,
@@ -165,7 +165,7 @@ port.light1 =
    {
     north =
     {
-      filename = "__cargo-ships__/graphics/entity/port/port-red-light-1.png",
+      filename = "__cargo-ships-seraph__/graphics/entity/port/port-red-light-1.png",
       width = 14,
       height = 7,
       frame_count = 1,
@@ -173,7 +173,7 @@ port.light1 =
     },
     west =
     {
-      filename = "__cargo-ships__/graphics/entity/port/port-red-light-1.png",
+      filename = "__cargo-ships-seraph__/graphics/entity/port/port-red-light-1.png",
       width = 14,
       height = 7,
       frame_count = 1,
@@ -181,7 +181,7 @@ port.light1 =
     },
     south =
     {
-      filename = "__cargo-ships__/graphics/entity/port/port-red-light-1.png",
+      filename = "__cargo-ships-seraph__/graphics/entity/port/port-red-light-1.png",
       width = 14,
       height = 7,
       frame_count = 1,
@@ -189,7 +189,7 @@ port.light1 =
     },
     east =
     {
-      filename = "__cargo-ships__/graphics/entity/port/port-red-light-1.png",
+      filename = "__cargo-ships-seraph__/graphics/entity/port/port-red-light-1.png",
       width = 14,
       height = 7,
       frame_count = 1,

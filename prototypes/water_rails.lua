@@ -47,7 +47,7 @@ railpicturesinternal = function(elems, invisible)
       if(elem[1] == "metals" and not invisible) then
         part[elem[1]] = { 
           sheet = {
-              filename = string.format("__cargo-ships__/graphics/entity/%s%s/%s-%s-%s.png", dashkey, postfix, dashkey, key[2], elem[2]),
+              filename = string.format("__cargo-ships-seraph__/graphics/entity/%s%s/%s-%s-%s.png", dashkey, postfix, dashkey, key[2], elem[2]),
               priority = "extra-high", 
               flags = elem.mipmap and { "icon" },
               width = key[3],
@@ -58,7 +58,7 @@ railpicturesinternal = function(elems, invisible)
         }
       elseif(railBlockKeys[elem[1]] ~= nil) then
         part[elem[1]] = {
-          filename = string.format("__cargo-ships__/graphics/entity/%s/%s-%s-%s.png", dashkey, dashkey, key[2], elem[2]),
+          filename = string.format("__cargo-ships-seraph__/graphics/entity/%s/%s-%s-%s.png", dashkey, dashkey, key[2], elem[2]),
           priority = "extra-high", 
           flags = elem.mipmap and { "icon" },
           width = key[3],
@@ -69,7 +69,7 @@ railpicturesinternal = function(elems, invisible)
       else
         part[elem[1]] = { 
           sheet = {
-            filename = string.format("__cargo-ships__/graphics/blank.png", dashkey, dashkey, key[2], elem[2]),
+            filename = string.format("__cargo-ships-seraph__/graphics/blank.png", dashkey, dashkey, key[2], elem[2]),
             priority = "extra-high", 
             flags = elem.mipmap and { "icon" },
             width = 2,
@@ -88,13 +88,13 @@ railpicturesinternal = function(elems, invisible)
    sheets =
    {
      {
-       filename = "__cargo-ships__/graphics/blank.png",
+       filename = "__cargo-ships-seraph__/graphics/blank.png",
        priority = "high",
        width = 4,
        height = 4,
      },
      {
-       filename = "__cargo-ships__/graphics/blank.png",
+       filename = "__cargo-ships-seraph__/graphics/blank.png",
        priority = "high",
        flags = { "icon" },
        width = 4,
@@ -111,7 +111,7 @@ data:extend({
   {
     type = "straight-rail",
     name = "straight-water-way",
-    icon = "__cargo-ships__/graphics/blank.png",
+    icon = "__cargo-ships-seraph__/graphics/blank.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation", "building-direction-8-way"},
     destructible=false,
@@ -135,7 +135,7 @@ data:extend({
   {
     type = "curved-rail",
     name = "curved-water-way",
-    icon = "__cargo-ships__/graphics/blank.png",
+    icon = "__cargo-ships-seraph__/graphics/blank.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation", "building-direction-8-way"},
     destructible=false,

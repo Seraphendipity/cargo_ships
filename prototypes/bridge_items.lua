@@ -9,7 +9,7 @@ end
         {      
         type = "item", 
         name = "bridge_base", 
-        icon = "__cargo-ships__/graphics/icons/bridge.png", 
+        icon = "__cargo-ships-seraph__/graphics/icons/bridge.png", 
         icon_size = 128,
         subgroup = subgroup_shipequip,
         flags = {},
@@ -20,7 +20,7 @@ end
         { 
         type = "item", 
         name = "bridge_north", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 2,
         subgroup = subgroup_shipequip,
         flags = {"hidden"},
@@ -31,7 +31,7 @@ end
         {      
         type = "item", 
         name = "bridge_north_closed", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 2,
         subgroup = subgroup_shipequip,
         flags = {"hidden"},
@@ -42,7 +42,7 @@ end
         {
         type = "item", 
         name = "bridge_east", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 2,
         subgroup = subgroup_shipequip,
         flags = {"hidden"},
@@ -53,7 +53,7 @@ end
         {      
         type = "item", 
         name = "bridge_east_closed", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 2,
         subgroup = subgroup_shipequip,
         flags = {"hidden"},
@@ -64,7 +64,7 @@ end
         {      
         type = "item", 
         name = "bridge_south", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 2,
         subgroup = subgroup_shipequip,
         flags = {"hidden"},
@@ -75,7 +75,7 @@ end
         {      
         type = "item", 
         name = "bridge_south_closed", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 2,
         subgroup = subgroup_shipequip,
         flags = {"hidden"},
@@ -86,7 +86,7 @@ end
        {
         type = "item", 
         name = "bridge_west", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 2,
         subgroup = subgroup_shipequip,
         flags = {"hidden"},
@@ -97,7 +97,7 @@ end
         {      
         type = "item", 
         name = "bridge_west_closed", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 2,
         subgroup = subgroup_shipequip,
         flags = {"hidden"},
@@ -108,7 +108,7 @@ end
         {
         type = "item", 
         name = "invisible_rail", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 2,
         subgroup = subgroup_shipequip,
         flags = {"hidden"},
@@ -119,7 +119,7 @@ end
         {
         type = "item", 
         name = "bridge_crossing", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 2,
         subgroup = subgroup_shipequip,
         flags = {"hidden"},
@@ -130,7 +130,7 @@ end
         { 
         type = "item", 
         name = "invisible_chain_signal", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 2,
         subgroup = subgroup_shipequip,
         flags = {"hidden"},
@@ -142,7 +142,7 @@ end
         { 
         type = "item", 
         name = "bridge_north_clickable", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 2,
         subgroup = subgroup_shipequip,
         flags = {"hidden"},
@@ -153,7 +153,7 @@ end
         { 
         type = "item", 
         name = "bridge_east_clickable", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 2,
         subgroup = subgroup_shipequip,
         flags = {"hidden"},
@@ -164,7 +164,7 @@ end
         { 
         type = "item", 
         name = "bridge_south_clickable", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 2,
         subgroup = subgroup_shipequip,
         flags = {"hidden"},
@@ -175,7 +175,7 @@ end
         { 
         type = "item", 
         name = "bridge_west_clickable", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 2,
         subgroup = subgroup_shipequip,
         flags = {"hidden"},
@@ -186,7 +186,7 @@ end
         { 
         type = "item", 
         name = "bridge_north_open", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 2,
         subgroup = subgroup_shipequip,
         flags = {"hidden"},
@@ -197,7 +197,7 @@ end
         { 
         type = "item", 
         name = "bridge_east_open", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 2,
         subgroup = subgroup_shipequip,
         flags = {"hidden"},
@@ -208,7 +208,7 @@ end
         { 
         type = "item", 
         name = "bridge_south_open", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 2,
         subgroup = subgroup_shipequip,
         flags = {"hidden"},
@@ -219,7 +219,7 @@ end
         { 
         type = "item", 
         name = "bridge_west_open", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 2,
         subgroup = subgroup_shipequip,
         flags = {"hidden"},

@@ -22,7 +22,7 @@ visual_hor.name = "crane_hor"
 visual_hor.drawing_box = {{-100, -100}, {-99, 99}}
 visual_hor.power_on_animation =       
     {
-      filename = "__cargo-ships__/graphics/entity/crane/crane_hor.png",
+      filename = "__cargo-ships-seraph__/graphics/entity/crane/crane_hor.png",
       animation_speed = 0.4,
       line_length = 6,
       width = 300,
@@ -47,7 +47,7 @@ data:extend({
 		{
         type = "item-with-entity-data", 
         name = "crane", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 64,
         flags = {}, 
         order = "a[water-system]-f[boat]",
@@ -58,7 +58,7 @@ data:extend({
         {
         type = "item-with-entity-data", 
         name = "crane_hor", 
-        icon = "__cargo-ships__/graphics/blank.png", 
+        icon = "__cargo-ships-seraph__/graphics/blank.png", 
         icon_size = 64,
         flags = {}, 
         order = "a[water-system]-f[boat]",
@@ -90,7 +90,7 @@ data:extend({
             type = "animation",
             name = "crane_animation_west",
             frame_count = 40,
-            filename = "__cargo-ships__/graphics/entity/crane/crane_hor.png",
+            filename = "__cargo-ships-seraph__/graphics/entity/crane/crane_hor.png",
             size = {300,225},
             line_length = 6,
             animation_speed = 0.2,
@@ -100,7 +100,7 @@ data:extend({
             type = "animation",
             name = "crane_animation_east",
             frame_count = 40,
-            filename = "__cargo-ships__/graphics/entity/crane/crane_hor.png",
+            filename = "__cargo-ships-seraph__/graphics/entity/crane/crane_hor.png",
             size = {300,225},
             line_length = 6,
             run_mode="backward",
@@ -111,14 +111,14 @@ data:extend({
         {
             type = "sprite",
             name = "crane_west",
-            filename = "__cargo-ships__/graphics/entity/crane/west.png",
+            filename = "__cargo-ships-seraph__/graphics/entity/crane/west.png",
             size = {300,225},
             render_layer="higher-object-above",
         },
         {
             type = "sprite",
             name = "crane_east",
-            filename = "__cargo-ships__/graphics/entity/crane/east.png",
+            filename = "__cargo-ships-seraph__/graphics/entity/crane/east.png",
             size = {300,225},
             render_layer="higher-object-above",
         },         

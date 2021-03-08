@@ -23,7 +23,7 @@ pump_marker.minable = nil
 pump_marker.collision_mask = {}
 pump_marker.picture =
 {
-  filename = "__cargo-ships__/graphics/green_selection_box.png",
+  filename = "__cargo-ships-seraph__/graphics/green_selection_box.png",
   width = 128,
   height = 128,
   scale = 0.5,
@@ -106,7 +106,7 @@ oil_rig.base_picture =
   sheets =
   {
     {
-      filename = "__cargo-ships__/graphics/entity/oil_rig/oil_rig.png",
+      filename = "__cargo-ships-seraph__/graphics/entity/oil_rig/oil_rig.png",
       priority = "very-low",
       width = 300,
       height = 471,
@@ -123,7 +123,7 @@ oil_rig.animations =
     {
       {
         priority = "high",
-        filename = "__cargo-ships__/graphics/blank.png",
+        filename = "__cargo-ships-seraph__/graphics/blank.png",
         line_length = 8,
         width = 2,
         height = 2,
@@ -187,7 +187,7 @@ or_power.horizontal_animation =
   layers =
         {
           {
-            filename = "__cargo-ships__/graphics/blank.png",
+            filename = "__cargo-ships-seraph__/graphics/blank.png",
             width = 2,
             height = 2,
             frame_count = 32,
@@ -200,7 +200,7 @@ or_power.vertical_animation =
   layers =
   {
     {
-      filename = "__cargo-ships__/graphics/blank.png",
+      filename = "__cargo-ships-seraph__/graphics/blank.png",
       width = 2,
       height = 2,
       frame_count = 32,
@@ -243,7 +243,7 @@ or_pole.next_upgrade=nil
 or_pole.maximum_wire_distance = 0
 or_pole.pictures =
 {
-  filename = "__cargo-ships__/graphics/blank.png",
+  filename = "__cargo-ships-seraph__/graphics/blank.png",
   width = 2,
   height = 2,
   direction_count = 4,
@@ -263,7 +263,7 @@ or_lamp.selection_box= nil
 or_lamp.collision_mask= {}
 or_lamp.picture_off = 
 {  
-  filename = "__cargo-ships__/graphics/blank.png",
+  filename = "__cargo-ships-seraph__/graphics/blank.png",
   width = 2,
   height = 2,
 }
@@ -279,7 +279,7 @@ or_radar.collision_box= nil
 or_radar.selection_box= nil
 or_radar.pictures=
 {
-  filename = "__cargo-ships__/graphics/blank.png",
+  filename = "__cargo-ships-seraph__/graphics/blank.png",
   width = 2,
   height = 2,
   direction_count = 4,
